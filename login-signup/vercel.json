@@ -1,5 +1,14 @@
 {
-  "installCommand": "cd login-signup && npm install",
-  "buildCommand": "cd login-signup && npm run build",
-  "outputDirectory": "login-signup/build"
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
 }
