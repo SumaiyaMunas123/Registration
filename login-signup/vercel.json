@@ -1,0 +1,5 @@
+{
+  "installCommand": "cd login-signup && npm install",
+  "buildCommand": "cd login-signup && npm run build",
+  "outputDirectory": "login-signup/build"
+}
